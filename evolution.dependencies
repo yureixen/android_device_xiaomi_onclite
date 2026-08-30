@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "yureixen/proprietary_vendor_xiaomi_onclite",
+    "target_path": "vendor/xiaomi/onclite",
+    "remote": "github-non-los",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "yureixen/android_kernel_xiaomi_onclite",
+    "target_path": "kernel/xiaomi/onclite",
+    "remote": "github-non-los",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "Evolution-X/hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github-non-los"
+  }
+]

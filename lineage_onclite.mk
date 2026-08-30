@@ -17,7 +17,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 EVO_BUILD_TYPE := Unofficial
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_MINI_GAPPS := true
-TARGET_INCLUDE_VIPERFX := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_onclite

@@ -12,7 +12,7 @@
     "branch": "lineage-21"
   },
   {
-    "repository": "Evolution-X-Devices/hardware_xiaomi",
+    "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "github-non-los"
   },

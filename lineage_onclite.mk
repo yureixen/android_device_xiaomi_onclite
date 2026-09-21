@@ -14,7 +14,6 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-EVO_BUILD_TYPE := Unofficial
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_USES_MINI_GAPPS := true
 

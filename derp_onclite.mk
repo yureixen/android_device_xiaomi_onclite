@@ -15,7 +15,6 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common DerpFest stuff.
 TARGET_USES_MINI_GAPPS := true
 TARGET_NOT_USES_BLUR := true
-TARGET_SUPPORTS_CALL_RECORDING := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.

@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "yureixen/proprietary_vendor_xiaomi_onclite",
+    "target_path": "vendor/xiaomi/onclite",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "yureixen/android_kernel_xiaomi_onclite",
+    "target_path": "kernel/xiaomi/onclite",
+    "branch": "lineage-21"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-21"
+  }
+]

@@ -16,6 +16,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 TARGET_USES_MINI_GAPPS := true
 TARGET_NOT_USES_BLUR := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_onclite

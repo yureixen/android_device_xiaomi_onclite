@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 TARGET_USES_MINI_GAPPS := true
 
 # Device identifier. This must come after all inclusions.

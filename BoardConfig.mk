@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/xiaomi/onclite
 
+# A/B
+AB_OTA_UPDATER := false
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 

@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_onclite.mk
+    $(LOCAL_DIR)/infinity_onclite.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_onclite-user \
+    infinity_onclite-userdebug \
+    infinity_onclite-eng

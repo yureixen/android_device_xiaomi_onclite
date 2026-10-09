@@ -41,6 +41,8 @@ void set_model_props(const std::string &model) {
         std::string prop = "ro.product." + source + "model";
         property_override(prop, model);
     }
+    // Set market name (shown in About phone)
+    property_override("ro.product.marketname", model);
     // Set bluetooth name
     property_override("bluetooth.device.default_name", model);
 }

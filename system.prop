@@ -48,5 +48,11 @@ rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# About phone
+ro.infinity.soc=Snapdragon 632
+ro.infinity.battery=4000 mAh
+ro.infinity.display=720 x 1520, 60 Hz
+ro.infinity.camera=12MP + 2MP
+
 # WFD
 persist.debug.wfd.enable=1

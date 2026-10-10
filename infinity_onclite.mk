@@ -14,9 +14,8 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Infinity X stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 720
 INFINITY_MAINTAINER := YUREI
-WITH_GAPPS := true
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := false
 TARGET_SUPPORTS_QUICK_TAP := false
 

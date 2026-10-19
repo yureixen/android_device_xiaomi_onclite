@@ -425,6 +425,3 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
-
-# ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
